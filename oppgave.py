@@ -10,7 +10,7 @@ bater = [[True, 2], [False, 1], [False, 2], [True, 1]]
 varer = [['Sykkel',1,'Lovund'],['traktordel',2,'Tomma'],['Noetungt',2,'Nesna'],['Storvare1',2,'Lovund'],['Storpakke',1,'Nesna']]
 
 def get_collection(col):
-    cluster = MC(CONNECTION_STRING).
+    cluster = MC(CONNECTION_STRING)
     database = cluster[DATABASE]
     collection = database[col]
     return collection
